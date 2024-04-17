@@ -1,0 +1,110 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.main{
+  background: url(images/25058663230_005ad66a50_h.jpg);
+  background-position: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo{
+  color: #f8b333;
+  font-size: 23px;
+  padding-left: 15px;
+  font-family: sans-serif;
+}
+
+.navbar{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.menu ul, a{
+  list-style: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding-left: 45px;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.4s ease-in-out;
+  width: 50%;
+}
+
+.menu ul, a:hover{
+  color: #f8b333;
+}
+
+.content{
+  width: 100%;
+  display: flex;
+  color: white;
+  margin-top: 140px;
+  justify-content: space-between;
+}
+
+.text{
+  padding-left: 15px;
+}
+.text h1{
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text span{
+  color: #fbff00;
+  font-size: 65px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text p{
+  line-height: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-top: 30px;
+}
+
+.content-form{
+  display: block;
+  text-align: center;
+  background-color: #271f1f;
+  color: white;
+  height: 65vh;
+  margin-right: 45px;
+  padding: 0px 40px;
+  border-radius: 10px;
+}
+
+.content-form input{
+  outline: none;
+  background: transparent;
+  color: #ffffff;
+}
+
+#mail{
+  padding: 10px 15px 13px 18px;
+  border-bottom: 1px solid #f8b333;
+  margin-top: 30px;
+  border-right: none;
+}
+
+.submit{
+  margin-top: 30px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 1px solid #f8b333;
+  transition: 0.4s ease-in-out;
+}
+
+.submit:hover{
+  background-color: #f8b333;
+}
+
+.sign{
+  font-family: Arial;
+  padding-top: 40px;
+}
